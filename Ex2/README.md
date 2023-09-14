@@ -1,8 +1,11 @@
 # power2n 的四種實作方法
 
+## 參考
+* 程式中測時及輸出的部份參考自[老師的範例](https://github.com/ccc112a/py2cs/tree/master/02-演算法/02-方法/01-查表法/fiboanacci)
+
 ## 問題：
 * 在Powrshell執行時，若執行時間太短則無法顯示正確程式耗時，須在WSL環境下才能正確顯示
-* 測試兩次的結果中，在WSL環境執行的耗時皆比在Powershell中執行的耗時短
+* 在使用Powershell及WSL各自測試兩次後發現，在WSL環境執行的耗時皆比在Powershell中執行的耗時短
 
 ## 執行結果
 

@@ -1,5 +1,8 @@
 # 費氏數列遞迴版
 
+## 參考
+* 程式中測時及輸出的部份參考自[老師的範例](https://github.com/ccc112a/py2cs/tree/master/02-演算法/02-方法/01-查表法/fiboanacci)
+
 ## 問題：
 * 在Powrshell執行時，大多無法顯示正確程式耗時，須在WSL環境下才能正確顯示
 

@@ -10,13 +10,18 @@ def fibonacci(n):
     return fib[len(fib)-1]
 
 n = int(input("input an integer: "))
+
 sT = time.time() # 使用time module
 startTime = datetime.now() # 使用datetime module
+
 print("fibonacci(%d) = %d" % (n, fibonacci(n)))
+
 eT = time.time() # 使用time module
 endTime = datetime.now() # 使用datetime module
+
 sec = eT - sT # 使用time module
 seconds = endTime - startTime # 使用datetime module
+
 print("time: %f"%(sec)) # 使用time module
 print("time:{}".format(seconds)) # 使用datetime module
 
