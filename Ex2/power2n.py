@@ -14,8 +14,8 @@ def power2n_recursive_b(n):
     else: return 2 * power2n_recursive(n-1)
 
 ans = [None]*1000
+ans[0] = 1
 def power2n_re_lookup(n):
-    ans[0] = 1
     if not ans[n] is None:
         return ans[n]
     else:
