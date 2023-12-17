@@ -1,11 +1,13 @@
 import random
 
 
-def neighbor(f, p, h):
+def neighbor(f, p, h=0.01):
     p1 = p.copy()
     for i in range(len(p)):
         p1[i] = p1[i] + random.uniform(-h, h)
-    return p1, f(p1)
+
+    f1 = f(p1)
+    return p1, f1
 
 
 def hillClimbing(f, p, h=0.01):
