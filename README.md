@@ -28,7 +28,7 @@
 9. [習題九](Ex9)
 10. [習題十](Ex10)
 11. [挑戰題](Challenge)
-12. [習題十一](Ex11)  
+12. [習題十一](Ex11/Ex11.md)  
     * 內有標注，來自ChatGPT
 
 [hillClimbingN]: https://github.com/ccc112a/py2cs/blob/master/02-%E6%BC%94%E7%AE%97%E6%B3%95/02-%E6%96%B9%E6%B3%95/05c-%E7%88%AC%E5%B1%B1%E6%BC%94%E7%AE%97%E6%B3%95/hillClimbingN/hillClimbingN.py
