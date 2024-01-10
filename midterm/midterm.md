@@ -1,7 +1,9 @@
 # 區塊鏈研究筆記
 
-> 節錄自[區塊鏈是什麼？區塊鏈 6 大特性、運作方式、產業應用一次搞懂！][what-is-blockchain]  
-> 部份內容來自ChatGPT
+> 概述、由來及特性部份，節錄自[區塊鏈是什麼？區塊鏈 6 大特性、運作方式、產業應用一次搞懂！][what-is-blockchain]  
+> 應用部份，內容來自ChatGPT  
+> 部份內容來自維基百科  
+> ~~我應該參考的~~參考資料：[區塊鏈技術指南](https://poweichen.gitbook.io/blockchain-guide-zh/)
 -------
 
 ## 什麼是區塊鏈
@@ -14,7 +16,7 @@
 ## 區塊鏈的由來
 區塊鏈的由來可以追朔到2008年，一個使用化名「**中本聰**」（Satoshi Nakamoto）的人（或團隊）發表了一篇名為《Bitcoin: A Peer-to-Peer Electronic Cash System》的白皮書。這份白皮書描述了比特幣（Bitcoin）的運作原理和基礎技術，這也被視為區塊鏈概念的最早來源。  
 
-區塊鏈本質上是為了解決去中心化數位貨幣的**雙重支付**（double-spending）問題而設計的。在傳統數位支付系統中，需要中央機構（例如銀行）來驗證和處理交易，這導致了一定程度上的信任問題和中央化風險。中本聰提出了一種基於去中心化、共識機制和加密學的新方法，即比特幣的區塊鏈技術。  
+區塊鏈本質上是為了解決去中心化數位貨幣的[**雙重支付**][double-spending]（double-spending）問題而設計的。在傳統數位支付系統中，需要中央機構（例如銀行）來驗證和處理交易，這導致了一定程度上的信任問題和中央化風險。中本聰提出了一種基於去中心化、共識機制和加密學的新方法，即比特幣的區塊鏈技術。  
 
 白皮書中描述的區塊鏈的基本概念，其中提出了一種分佈式資料庫的概念，資料以區塊的形式儲存，每個區塊包含一定數量的交易資訊，這些區塊按照時間順序相互連接形成一條鏈。
 
@@ -44,6 +46,17 @@
 ### 無國界
 無論其國籍、種族、性別、年齡、階級、財富或政治立場，公有區塊鏈無須許可也無遠弗屆，允許所有人加入。每個人都享有區塊鏈應用的平等權利，沒有人被排除在外。這是一個開放的網路，所有使用者都可以參與區塊鏈來驗證交易和資料的共識過程。  
 
+## 相關算法
+1. **工作量證明（Proof of Work, PoW）**  
+    使用者進行大量窮舉運算，以尋找雜湊值的特徵  
+    詳細內容過於複雜，參考[維基百科][PoW-1]、[Mr.Market市場先生-PoW][PoW-2]  
+2. **權益證明（Proof of Stake, PoS）**  
+    不太了解，參考[Mr.Market市場先生-PoS][PoS]  
+3. **委託證明（Delegated Proof of Stake, DPoS）**  
+    不太了解，參考[Mr.Market市場先生-DPoS][DPoS]  
+4. **容錯拜占庭式一致性算法（Byzantine Fault Tolerance, BFT）**  
+    不太了解，參考[維基百科][BFT-1]，[區塊鏈技術指南][BFT-2]  
+    
 ## 區塊鏈的應用
 1. **加密貨幣**：比特幣是區塊鏈技術的首個應用案例。許多其他加密貨幣也利用區塊鏈技術實現去中心化的數位貨幣系統，如以太幣（Ethereum）、萊特幣（Litecoin）等。  
 2. **智慧型合約**：以太坊等平台實現了智慧型合約，這些合約是在區塊鏈上運行的程式，可以自動執行和實施協議或條款，無須第三方參與。  
@@ -53,3 +66,10 @@
 
 
 [what-is-blockchain]: https://chainee.io/what-is-blockchain/
+[double-spending]: https://zh.wikipedia.org/zh-tw/雙重支付
+[PoW-1]: https://zh.wikipedia.org/zh-tw/工作量證明
+[PoW-2]: https://rich01.com/what-is-crypto-pow-0/
+[PoS]: https://rich01.com/what-is-crypto-pos-0/
+[DPoS]: https://rich01.com/what-is-dpos/
+[BFT-1]: https://zh.wikipedia.org/zh-tw/拜占庭将军问题
+[BFT-2]: https://poweichen.gitbook.io/blockchain-guide-zh/distribute_system/bft
